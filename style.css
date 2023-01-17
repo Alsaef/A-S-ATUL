@@ -7,7 +7,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: white;
+    
 }
 nav{
     display: flex;
@@ -24,7 +24,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(230, 228, 228);
     font-weight: bold;
 }
 nav ul li a:hover{
@@ -36,7 +36,7 @@ nav ul li a:hover{
 }
 .detil h1{
     font-size: 40px;
-    color: black;
+    color: rgb(236, 234, 234);
     margin-bottom: 20px;
 }
 span{
@@ -44,7 +44,7 @@ span{
 }
 span:hover{color: red;}
 .detil p{
-color: #555;
+color: rgb(245, 245, 245);
 line-height: 22px;
 }
 .detil a{
@@ -57,16 +57,9 @@ line-height: 22px;
     margin: 30 0;
     border-radius: 5px;
 }
-.img{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
-.img img{
+body{
+    background-image: url("325640129_565273678514328_2913675435397166737_n.jpg");
+    background-size: cover;
     height: 100%;
-    position: absolute;
-    left: 10%;
-    bottom: 0;
+    overflow: hidden;
 }
