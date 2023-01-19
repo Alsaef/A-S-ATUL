@@ -76,3 +76,35 @@ color: antiquewhite;
 .icon a i:hover{
     color: red;
 }
+.main h2{
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.submain1{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+ padding: 5px;
+ color: aliceblue;
+ background-color: orangered;
+}
+.submain2{ display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+ padding: 5px;
+    color: aliceblue;
+    background-color: skyblue;
+}
+.submain3{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: aliceblue;
+ padding: 5px;
+ background-color: rgb(255, 170, 0);
+}
